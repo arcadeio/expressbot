@@ -1,0 +1,24 @@
+{
+  "name": "expressbot",
+  "version": "1.0.0",
+  "description": "A Discord Utilities Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcadeio/expressbot.git"
+  },
+  "author": "MarvelDC, dang, leny32, Marh42",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcadeio/expressbot/issues"
+  },
+  "homepage": "https://github.com/arcadeio/expressbot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ms": "^2.1.2",
+    "superagent": "^5.1.0"
+  }
+}
