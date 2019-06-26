@@ -1,24 +1,20 @@
 {
-  "name": "expressbot",
+  "name": "ebotblock",
   "version": "1.0.0",
-  "description": "A Discord Utilities Bot",
+  "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arcadeio/expressbot.git"
-  },
-  "author": "MarvelDC, dang, leny32, Marh42",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arcadeio/expressbot/issues"
-  },
-  "homepage": "https://github.com/arcadeio/expressbot#readme",
   "dependencies": {
+    "ascii-art": "^1.5.1",
+    "crypto": "^1.0.1",
     "discord.js": "^11.5.1",
-    "ms": "^2.1.2",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.3.2",
+    "nodemon": "^1.19.1",
     "superagent": "^5.1.0"
   }
 }
