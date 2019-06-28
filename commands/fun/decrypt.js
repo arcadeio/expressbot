@@ -7,12 +7,20 @@
  */
 const crypto = require('crypto');
 const rm = require('./../../menu/menu.js');
+const error = require("./../../errors/errors.js")
+const Discord = require("discord.js")
 
 module.exports.run = async (bot, message, args) => {
+
+  let Embed = new Discord.RichEmbed()
+    .addField("Sorry!", "We are sorry, this command is still in development! Try again soon!")
+    .setColor("#f90000")
+
+  message.channel.send(Embed)
 
 }
 
 module.exports.help = {
   name: 'decrypt',
-  aliases: ['']
+  aliases: ['decypher, uncrypt']
 }

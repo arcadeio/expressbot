@@ -5,6 +5,6 @@ module.exports.Error = (message, error) => {
     .setTitle("An error occured!")
     .setColor("#f90000")
     .addField("An error ocurred!", error)
-}
 
-message.channel.send(embed).then(m => m.delete(5000));
+    message.channel.send(embed).then(m => m.delete(5000));
+}
